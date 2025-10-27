@@ -1,0 +1,35 @@
+ .destination-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 250px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.destination-card:hover {
+  transform: translateY(-5px);
+}
+
+.destination-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.destination-card h2 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.destination-card h4 {
+  margin: 0;
+  color: #555;
+  font-weight: normal;
+}
+
+.destination-card p {
+  padding: 10px 15px 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
