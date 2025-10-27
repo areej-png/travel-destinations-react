@@ -1,4 +1,4 @@
-import '../DestinationCard.css';
+import './DestinationCard.css';
 function DestinationCard({ name, country, image, description }) {
     return (
         <div className="destination-card">
