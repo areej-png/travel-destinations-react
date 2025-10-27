@@ -17,6 +17,25 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.travel-container {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 40px;
+}
+.travel-container h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+
+.card-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+   
 
 @keyframes logo-spin {
   from {
